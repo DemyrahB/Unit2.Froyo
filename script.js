@@ -1,4 +1,9 @@
-//prompt ("Please confirm your order by typing the following: vanilla, vanilla, vanilla, strawberry, coffee, coffee")
+prompt("Please confirm your order by typing the following: vanilla, vanilla, vanilla, strawberry, coffee, coffee")
 
-const flavor1 = Vanilla (localStorage.flavor1);
-console.log(localStorage.flavor1)
+
+const flavors = {
+    Vanilla: 3,
+    Strawberry: 1,
+    Coffee: 2,
+}
+console.table(flavors)
